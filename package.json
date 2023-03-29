@@ -1,0 +1,26 @@
+{
+  "name": "4uhost-html",
+  "version": "1.0.0",
+  "description": "need to create git and git repo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Balasankar-s/4uhost-html.git"
+  },
+  "author": "BalaSankar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Balasankar-s/4uhost-html/issues"
+  },
+  "homepage": "https://github.com/Balasankar-s/4uhost-html#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}
