@@ -12,6 +12,11 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + "/about.html");
   });
 
+  // Route handler for home page
+app.get('/index.html', (req, res) => {
+  res.sendFile(__dirname + "/about.html");
+});
+
 // MySQL database configuration
 const connection = mysql.createConnection({
   host: 'localhost',
